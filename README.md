@@ -2,6 +2,13 @@
 
 Simple daily scraper for Lazada Thailand product data. Saves to BigQuery automatically.
 
+## 🔧 One-Time Setup (First Time Only)
+
+**Before first run**: Email `nilesh@pollen.tech` to get the `key.json` file.
+- Save it in the root directory of this project
+- This file is needed for BigQuery authentication
+- Only needed once per setup
+
 ## 📋 Daily Checklist (5 minutes)
 
 ### Step 1: Get Fresh Cookies (Daily!)
@@ -37,6 +44,7 @@ python scrape.py
 
 ## 🚨 If Something Breaks
 
+**"key.json not found"** → Email nilesh@pollen.tech for the file  
 **"Curl validation failed"** → Get fresh curl.txt (Step 1)  
 **"Already scraped today"** → Type 'y' to continue anyway  
 **"BigQuery error"** → Check with developer
