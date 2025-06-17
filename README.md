@@ -19,6 +19,15 @@ python scrape.py
 - Check terminal shows "✅ Uploaded X products to BigQuery"
 - Verify data in BigQuery Console
 
+## ⚠️ IMPORTANT WARNING
+
+**If running multiple times per day**: Always get fresh cookies (Step 1) before each run!
+
+- Reusing old cookies can trigger anti-bot protection
+- You may get IP banned or blocked temporarily
+- Each run should use a fresh browser session and new curl command
+- Wait at least 1-2 hours between runs to be safe
+
 ## 📊 What It Does
 
 - Scrapes 22 product categories (4,000+ products)

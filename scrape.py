@@ -272,12 +272,14 @@ def parse_products(data):
     return products
 
 
-def save_to_csv(products, category_name):
-    """Save products to CSV file in data/ directory (backup)"""
-    os.makedirs('data', exist_ok=True)
+def save_to_csv(products, category_name, timestamp_dir):
+    """Save products to CSV file in timestamped data/ subdirectory (backup)"""
+    # Create timestamped subdirectory
+    data_dir = f"data/{timestamp_dir}"
+    os.makedirs(data_dir, exist_ok=True)
     
     # Clean filename
-    filename = f"data/{category_name.replace(' ', '_').replace('&', 'and').replace(',', '').lower()}.csv"
+    filename = f"{data_dir}/{category_name.replace(' ', '_').replace('&', 'and').replace(',', '').lower()}.csv"
     
     with open(filename, 'w', newline='', encoding='utf-8') as f:
         if not products:
@@ -295,7 +297,7 @@ def save_to_csv(products, category_name):
     return filename
 
 
-def scrape_category(curl_template, category_name, query, bq_client, dataset_id, table_id, max_pages=5):
+def scrape_category(curl_template, category_name, query, bq_client, dataset_id, table_id, timestamp_dir, max_pages=5):
     """Scrape a single category with pagination"""
     print(f"🔍 {category_name} → '{query}'")
     
@@ -320,7 +322,7 @@ def scrape_category(curl_template, category_name, query, bq_client, dataset_id, 
             time.sleep(2)
     
     # Save to CSV (backup)
-    csv_filename = save_to_csv(all_products, category_name)
+    csv_filename = save_to_csv(all_products, category_name, timestamp_dir)
     print(f"  💾 Saved {len(all_products)} products to {csv_filename}")
     
     # Upload to BigQuery
@@ -338,11 +340,15 @@ def main():
     DATASET_ID = "lazada_products"
     TABLE_ID = "lazada_thailand"
     
+    # Create timestamp directory name (human readable and POSIX safe)
+    timestamp_dir = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    
     # Load configuration
     categories = load_categories()
     curl_template = load_curl_command()
     
     print(f"📋 Found {len(categories)} categories to scrape")
+    print(f"📁 CSV files will be saved to: data/{timestamp_dir}/")
     
     # Step 1: Validate curl command
     if not validate_curl_command(curl_template):
@@ -363,7 +369,7 @@ def main():
     
     # Step 4: Final confirmation
     print(f"\n📊 Ready to scrape {len(categories)} categories")
-    print(f"💾 Data will be saved to: CSV files + BigQuery ({DATASET_ID}.{TABLE_ID})" if bq_client else "💾 Data will be saved to: CSV files only")
+    print(f"💾 Data will be saved to: CSV files (data/{timestamp_dir}/) + BigQuery ({DATASET_ID}.{TABLE_ID})" if bq_client else f"💾 Data will be saved to: CSV files (data/{timestamp_dir}/) only")
     
     response = input("\n❓ Start scraping? (Y/n): ")
     if response.lower() in ['n', 'no']:
@@ -379,7 +385,7 @@ def main():
     
     for i, (category_name, query) in enumerate(categories.items()):
         try:
-            count = scrape_category(curl_template, category_name, query, bq_client, DATASET_ID, TABLE_ID)
+            count = scrape_category(curl_template, category_name, query, bq_client, DATASET_ID, TABLE_ID, timestamp_dir)
             total_products += count
             if count > 0:
                 successful_categories += 1
@@ -400,7 +406,7 @@ def main():
     print(f"✅ Scraping complete!")
     print(f"   📊 {successful_categories}/{len(categories)} categories successful")
     print(f"   📦 {total_products} total products scraped")
-    print(f"   📁 Data saved to data/ directory")
+    print(f"   📁 CSV files saved to: data/{timestamp_dir}/")
     if bq_client:
         print(f"   🗄️  Data uploaded to BigQuery: {DATASET_ID}.{TABLE_ID}")
     print(f"   🕐 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
