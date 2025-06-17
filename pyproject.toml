@@ -1,0 +1,11 @@
+[project]
+name = "scraping-v2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "crawl4ai>=0.6.3",
+    "google-cloud-bigquery>=3.34.0",
+]
