@@ -26,6 +26,20 @@ python scrape.py
 - Check terminal shows "✅ Uploaded X products to BigQuery"
 - Verify data in BigQuery Console
 
+## 🔍 Quick Data Check
+
+**Want to see if scraping already ran today?**
+```bash
+python query.py
+```
+
+Shows:
+- ✅ Did scraping run today? 
+- 📊 How many products per category today
+- 📈 All-time stats (total products, days run, etc.)
+
+Perfect for checking before running the scraper!
+
 ## ⚠️ IMPORTANT WARNING
 
 **If running multiple times per day**: Always get fresh cookies (Step 1) before each run!
