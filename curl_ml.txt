@@ -1,0 +1,14 @@
+curl 'https://www.lazada.com.my/tag/toothpaste/?ajax=true&catalog_redirect_tag=true&isFirstRequest=true&page=1&q=toothpaste&spm=a2o4k.homepage.search.d_go' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -b '__wpkreporterwid_=021ac89d-a633-4cf7-a6a0-12524ca2a14f; t_fv=1750327409354; t_uid=thNiaIlLs079RLTKlSfAxguLZYjILJBQ; t_sid=Mq4pfpmqiaNwt64mrW4q3xRMBwTyecWK; utm_origin=https://www.google.com/; utm_channel=SEO; hng=MY|en-MY|MYR|458; userLanguageML=en; lwrid=AgGXh6S8Dh2kDjItJc7jxe5uIxoL; lzd_cid=7eb83893-66f1-4d90-beb2-b514f96faa4b; lzd_sid=13d0d6b74bdd6b8a8ed0f28815b004b4; _tb_token_=e66114f3e13fe; cna=ec7aIHXtVlgCAWd96xhuQKl5; lwrtk=AAIEaFRQ+/lXSGJkjnC455SiZrC2tGRyuaxKGIhpOoVZCMM598trhrY=; epssw=9*mmCyFmoBRHIQFtvRutSR_ICF5zDehmmmgSZO3IomXA5idAZ_Z83mmAV7dSa4ddjmCITaqMKtuN-rIzmO0M7bJplpuupnhmdaEucu0cIummLtrDHmMrHwNw5vSGZ5wHZx0ver8fzQRMJmmjHkmpvmhBI_9z5mpbHmVAyR9jyW4rvutuuufXGZwv5rKV3CIZfM-8T3Vg9JmzaRdt0cmmzE1a3-uEuRA03IC5lHiAz3yuZ7utLRmmL3uAma3m3mmta2f79Jg2O40ALym5Bh0CmUWC8iU0qs7-oTsW7Wjgd2scwrqfOSCIO_vNVTMhV4-Ac88OaW; tfstk=guVZxy2wsjqBR3otIWG2YkSPwEGtGjSWnSijor4m5cmM1Ct0LkE2lNIABJo4xkkmCdGi0jz80ji_1fqQAJ2dXIa1DkZQKJItjjg_3sz0jokAWmim0oa0Cw15NPUtMjqVV_1Sl8YWR5oDcjctt3QdIMf5NPUiLSJER_NjAf5KXmcmIxDhtD32sjDmIwonu4pDjoqc8D0jkmvMimDnxqnnmjc0mybElD0iijYrDRwXL4DGkeCZmNxVJAmuSDRDZH3ZIP1-YIXUTVyxqPvHiIVE7APnXB7Okj2g5kk7QgRZNP28D4qMjGuU_zP4EkfB_jz3ESl3tMYIj8UUgfNGl1c3_lPiLoY2LA28f8DUOGRKqJ4UlvydkdibeqqxeSsJ6c40y7eSas8q88znTg5yD2YYVSewmKDiJ2o58wJDvjBRUvlMdKpxK0uEVNn9HKHiJ2o58wJvHvmr80_tX; bx-cookie-test=1; x5sec=7b22617365727665722d6c617a6164613b33223a22617c435066417a384947454c6d366d56346943584a6c5932467764474e6f595443553537692f426b70714d4459774e475a6d4d4441774d4441774d4441774d4441774d4441344d4441774d4441774d4441774d4441774d4441774d4441774e4459334e32526c596a45345a6d5977597a46695954686c4d7a45315a54686d4d6a41774d4441774d4441774d4446684f5463355a575a6a4d4449325a6a497a4d324d794e6d55794e5751784f544977595451354d4445345a673d3d222c22733b32223a2231393135363536306463653832653065227d' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.lazada.com.my/' \
+  -H 'sec-ch-ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
+  -H 'x-csrf-token: e66114f3e13fe'

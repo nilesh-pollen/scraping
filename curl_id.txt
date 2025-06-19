@@ -1,0 +1,14 @@
+curl 'https://www.lazada.co.id/tag/toothpaste/?ajax=true&catalog_redirect_tag=true&isFirstRequest=true&page=1&q=toothpaste&spm=a2o4j.homepage.search.d_go.1891600dQpWyj7' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -b '__wpkreporterwid_=4ee54ae5-7efd-41a9-b1bf-716fd12f86e3; t_fv=1750157603801; t_uid=wwd6cWd4U61fTKExevFkAiTFUlDbrKlD; __itrace_wid=005ccfbb-1a37-4112-202c-fd228299996c; hng=ID|id|IDR|360; userLanguageML=id; lwrid=AgGXfYW0EEg2Fr3XSN%2Flxe5uIxoL; cna=JDfYIPh1gBcCATErqAbEG5XK; lzd_cid=213554db-ec0a-4055-a34d-23dbce7f3b37; lzd_sid=14fc3175c20a12c406073a009d8bf5ef; _tb_token_=e5360b5ef068e; xlly_s=1; t_sid=k7hPF3URR0uJbor9rJF0QhoNu636BaaS; utm_origin=https://www.google.com/; utm_channel=SEO; lwrtk=AAIEaFRNUq50YTBXUiov+fLgDxqpqc30Xf4Uj4KQ6WVj4gYiQX1bzIs=; x5sec=7b22617365727665722d6c617a6164613b33223a22617c434e4f357a384947454c616f6949762b2f2f2f2f2f77456943584a6c5932467764474e6f595444367a7275692f662f2f2f2f3842536d6f774e6a41355a6d59774d4441774d4441774d4441774d4441774d4441774d4441774d4441774d4441774d4441774d4441774d4441304e6a63335a4756694d54686d5a6a426a4d574a684f4449784d324d31596a646d4d4441774d4441774d4441774d57593359545669596a526b4f5755344f574e6b4f5755334e474a6a4f546b354d4451774e4749795a47566c222c22733b32223a2234373739363930336430323230366465227d; _m_h5_tk=046da9607a824ca633a754d36de04ddc_1750334785323; _m_h5_tk_enc=06dd47c4a81a6c2976de1bcfa81f918e; epssw=9*mmC_om9LvN8oFtV33t22ymCFE0br5cvO7tjmmmom0ptuuu-wGwN4dSa43ta4ddjmcFzFSZHodNDUIkzn5PHbJVJGmeTSdetf9gvJukJR9LmIHdHmM7M4FIIsBdP4FHFVq1nK27zQR49R5ApeWyzhfuK0VcyOGl1Euu7mri_EoIImuVuu8nOR2e1cKuWzfY2byxRbhQqWu-H4un3mJ0N9Zr8iZQWktdCyuwWm3AmWMAvzuAOXdG9qa4H3tSCXvOjmi9xFdOoaHgYgd256KQhohEB7guiOmHIHmM1myb5sC6mdUr-h7tOpeH35Ga2jbUwTa-AOxoSg0DTQVM0HYBTK; tfstk=ggsiChaKFBG7wCPpJMt_zugovh4p1htXWsnvMnd48BRI6fnO3-xcIsjYCtP1iwfOaCSNmtiD3t5bCIe_JO66cnP8wiqRCOabmwICjmlFL99m0Izp7y8xGrP8wuEdQIYSD7Cv1b1GxKOeQcR27Jce3Lx2QIuaKBJDFqlNgsyHYKJ23jRZ7D-ehBR20n5VLJvvTd-20UfmMQbV-MPLJ-E6MaBRxdYMa9rI40xm2FRPQBm4xMvggQWwtmoDZ1720t54imKPP6jDz_EmAhBl8HJG--ue_UbN6p10qcRNxOSw6GPKXCS1LaIAT-o2iw7yraWa92vh8OIHJgPomF_F1aTcDWEWXaBRcUSajbOpPKfkbwVEj_Sr_2ury9iXL-IElqTwdpARDMHef_EcbK23K4MH7p9_eJ2nlqTwdpA8KJ0SKFJBC8C..' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.lazada.co.id/' \
+  -H 'sec-ch-ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
+  -H 'x-csrf-token: e5360b5ef068e'

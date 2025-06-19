@@ -1,0 +1,14 @@
+curl 'https://www.lazada.co.th/tag/toys-for-boys/?_keyori=ss&ajax=true&catalog_redirect_tag=true&clickTrackInfo=abId--378451__textId--6674921862058172931__score--22.677645__pvid--47cf2104-54de-436c-ae1a-305ef1a73a97__matchType--1__matchList--1-2__listNo--0__inputQuery--toys__srcQuery--toys%20for%20boys__spellQuery--toys%20for%20boys__ctrScore--0.378909__cvrScore--0.62166107&from=suggest_normal&isFirstRequest=true&page=1&q=toys%20for%20boys&spm=a2o4m.searchlist.search.2.77965533iDxwA2&sugg=toys%20for%20boys_0_1' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -b '__wpkreporterwid_=f99488a8-423a-494a-12f1-acbee6dd2f65; hng.sig=SsL2tV4PEb-QdHuP4Um9myn_3RH9bJSEN4qP2UfjzMM; EGG_SESS=S_Gs1wHo9OvRHCMp98md7HXKWcAeloCzJ3OIP7Zkr5z60D_bnL3cE9CFqFaGc2Nble704I-q8MzDZUU_LYq1HxQr7lobnKfku5nVeSA7rOlDWIkg3jvGX_cqP3BDZM7Uhft7HHU9oj1SA-XDfg83IeKnFA-Uyy9N7YnjfmS57h8=; lwrid=AgGXfFlIpwDSELYkTn5Bxe5uIxoL; t_fv=1750137915700; t_uid=LEDisQs0ubA15Np65juhvoSUQ7jyAAKE; cna=O+rXIBeswAcCATErqAay+tJ4; lzd_cid=1faac1da-6ef3-4e8c-be4e-d1e0cc138078; lzd_sid=131d230a354798b36bf0900c46da6e2c; _tb_token_=b6738b4eb8ae; hng=TH|en|THB|764; userLanguageML=en; _m_h5_tk=6cd8b534bf875ab07f6590b863b90bbe_1750159256471; _m_h5_tk_enc=51244a7066bc88d9b9a31a1b79690ecc; lwrtk=AAIEaFHpzeQ3ZOmjEr6zkFyLFFT4iQDFwF4pFQY1/K98+tM3P6/ho2I=; tfstk=f1xS9G2HsBK4_n_87pH4c8kfiusQqQiwwJ6pIpEzpgI89WpOgMku84XCAsOhawCeYI6pTCf8YgzP9nO6i97--god9sIR-U5Fa6sBKCMq_cowELfh2flZbSR4rjIh9DSKTRCrrMhZ_moVOTrCvBWHZ1PyHsXQ26Ep9ZCApOIdpwB-hsBCIyFJ9MLsG5Fx_cpZhoZYzhB6svPcojRcFa1LzsZILvW5PK9RG-e2ckQ56LIbAb_bf65ACnh3a6xXH3KeMmr5AKBB1gLjMuOBeFAhBQnbwTTJCd7XxfECnEdluTTjprCJB_IRGHD3x_LypH7B2feFw3AycNx3Ng-bb19hKywfSk6f_xMb-yVGK1oVgiVwhaBcFtHjh7OhytXf_xMb-ybRnT6xhxNWt; epssw=9*mmCG5mSzBOx_5AV3dS23VgFxLVlj0AV7gSPBdRWm7sEQot_pHoommcO55oPLIYa4mmH4dSaUuJvOfjPShSEBKPFuuEagykhw0cu0kjcZFLOx9LZZ9AuuuqnmIelvP4CK0r_74UC0mvQ_eZuo4yFJmmvfA0gZXqcgus5ZZr7IYHGhYpl3rfRfYGkzeEo-uuuuu_LWTzo4fEZuuu0Z61sTNq7ubRs9a4fUcHpDdR9OJQvu6w8Cp5ftozCAMSUAuYzuUDLwkFfTut_mmmmmuAz3TILu6nuOg43zCXGixj_e51jjmSdqDjB2JylcQx6lj5aHDTkYo-zedUfiFpsWmpM0Gzp7ydgf3D9i9I..; t_sid=JH2kiEVZfCbJUVCe3MSYAhCWSgb889p6; utm_channel=NA' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.lazada.co.th/' \
+  -H 'sec-ch-ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
+  -H 'x-csrf-token: b6738b4eb8ae'
